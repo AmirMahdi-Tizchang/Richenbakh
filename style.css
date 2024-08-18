@@ -1,0 +1,29 @@
+/* Horizontal Card Styling */
+.horizontal-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden; /* Ensure content does not overflow */
+  height: 500px; /* Fixed height for the card */
+}
+
+.carousel-inner {
+  height: 300px; /* Set a fixed height for the carousel */
+}
+
+.carousel-item {
+  height: 100%;
+  background-color: #000; /* Ensures a solid background */
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Ensures the image covers the container */
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+}
